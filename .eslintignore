@@ -1,0 +1,15 @@
+node_modules/
+_temp/
+docs/
+build/
+coverage/
+.eslintcache
+/.idea/
+/public
+/feSRC
+/v2SRC/view/pages/v2test/App.jsx
+/ws
+/router
+#template/stats.json
+npm-debug.log
+

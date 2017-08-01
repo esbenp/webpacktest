@@ -1,0 +1,22 @@
+{
+  "tags": {
+    "dictionaries": ["jsdoc"]
+  },
+  "source": {
+    "includePattern": ".+\\.js$",
+    "excludePattern": ".+_test\\.js$"
+  },
+  "plugins": ["node_modules/jsdoc-babel"],
+  "babel": {
+    "presets": [
+      "es2015-loose",
+      "react",
+      "stage-0"
+    ],
+    "plugins": ["transform-decorators-legacy"]
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false
+  }
+}

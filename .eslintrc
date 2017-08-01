@@ -1,0 +1,67 @@
+{
+  "extends": [
+    "eslint:recommended", "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "phantomjs": true,
+    "mocha": true
+  },
+  "root": true,
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./webpack.config.js"
+      }
+    },
+    "import/core-modules": ["wxsdk"]
+  },
+  "globals": {
+    "__webpack_public_path__": true,
+    "describe": true,
+    "Raven": true,
+    "it": true
+  },
+  "rules": {
+    "prefer-const": ["error", {
+      "destructuring": "all",
+      "ignoreReadBeforeAssign": false
+    }],
+    "react/forbid-prop-types": [2, { "forbid": ["any"] }],
+    "no-mixed-operators": ["error", {
+      "allowSamePrecedence": true,
+      "groups": [["&", "|", "^", "~", "<<", ">>", ">>>"], ["&&", "||"]]
+    }],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-unused-expressions": 0,
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never"
+    }],
+    "no-underscore-dangle": [0],
+    "react/jsx-indent-props": [2, 4],
+    "react/jsx-indent": [2, 4],
+    "func-names": ["error", "never"],
+    "space-infix-ops": 1,
+    "valid-jsdoc": 1,
+    "indent": [1, 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
+    "quotes": [2, "single"],
+    "semi": [1, "never"],
+    "no-cond-assign": [2, "except-parens"],
+    "no-console": 0,
+    "no-debugger": 0,
+    "react/no-danger": 1,
+    "react/display-name": 0,
+    "no-fallthrough": 0,
+    "react/prop-types": 0
+  }
+}

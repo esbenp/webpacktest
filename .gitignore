@@ -1,0 +1,13 @@
+node_modules/
+_temp/
+docs/
+build/
+coverage/
+.eslintcache
+/.idea/
+#/public
+#template/stats.json
+npm-debug.log
+
+# igonre i18n file, it fetch from repo: Google drive LiveBet/livebet-i18n
+/router/controllers/json/i18n.json

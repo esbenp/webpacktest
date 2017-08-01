@@ -1,0 +1,55 @@
+{
+  "extends": [
+    "eslint:recommended", "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "phantomjs": true,
+    "mocha": true
+  },
+  "root": true,
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./webpack.config.js"
+      }
+    }
+  },
+  "globals": {
+    "__webpack_public_path__": true
+  },
+  "rules": {
+    "prefer-const": ["error", {
+      "destructuring": "all",
+      "ignoreReadBeforeAssign": false
+    }],
+    "react/forbid-prop-types": [2, { "forbid": ["any"] }],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-unused-expressions": 0,
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never"
+    }],
+    "react/jsx-indent-props": [2, 4],
+    "react/jsx-indent": [2, 4],
+    "func-names": ["error", "never"],
+    "indent": [1, 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
+    "semi": [1, "never"],
+    "quotes": [2, "single"],
+    "no-cond-assign": [2, "except-parens"],
+    "no-console": 0,
+    "react/no-danger": 1,
+    "no-unused-vars": 0,
+    "react/display-name": 0,
+    "react/prop-types": 0
+  }
+}

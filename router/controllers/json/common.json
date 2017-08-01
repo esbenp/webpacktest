@@ -1,0 +1,192 @@
+{
+  "assets_url": "http://localhost:3100/public/",
+  "static_url": "/",
+  "ws_url": "ws://localhost:6100",
+  "log_url": "http://localhost:6100/log",
+  "dev": 1,
+  "is_test_mode": false,
+  "categories": [
+    {"id":"0","name":"All Goods"},
+    {"id":"1","name":"Gift Cards"},
+    {"id":"3","name":"goods"},
+    {"id":"4","name":"game items"}
+  ],
+  "sns_binding": {
+    "success": true,
+    "code": 1400,
+    "error": "some error"
+  },
+  "language": {
+    "selected": {
+
+      "code": "zh_CN",
+      "name": "简体中文"
+    },
+    "list": [
+      {"code": "zh_CN", "name": "简体中文"},
+      {"code": "en", "name": "English"}
+    ]
+  },
+  "uInfo": {
+    "isLogin": false,
+    "csrf_token": "asdfasdf",
+    "basic": {
+      "id": "13213",
+      "name": "Zero12345678",
+      "account": "lqzerogg",
+      "is_email_validated":0,
+      "email": "poorboy19910312@gmail.com",
+      "picture": "asdf.com/asdf",
+      "gold": 10000,
+      "fbp_gold": 1000,
+      "lbp_gold": 10000000,
+      "lbp_right": false,
+      "fans_num": 11,
+      "favorite_num": 11,
+      "first_name":"xia",
+      "last_name":"houdun",
+      "country":"China",
+      "city":"handan",
+      "address":"haishengdasha",
+      "signature":"个人描述",
+      "title_list":[
+        "达人",
+        "高手"
+      ],
+      "share_url": "//ezwin.cc/invite?channle=123",
+      "share_qrcode_url": "//qr.api.cli.im/qr?data=https%253A%252F%252Fezwin.cc%252Finvitate&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=76b49c06519dc7ae0bb920ef8a1b5a48",
+      "sns": {
+           "qq": 1,
+           "wechat": 1
+      }
+    },
+    "relation_ship": 0,
+    "sns": [
+      {
+        "key": "wechat",
+        "isActive": false
+      },
+      {
+        "key": "qq",
+        "isActive": true
+      }
+    ],
+    "recent_stat": {
+      "consecutive_wins":100,
+      "win_rate":"6%",
+      "bet_earnings":-111.96,
+      "return_rate":"-32%",
+      "bet_count":33
+    }
+  },
+  "games": [
+        {
+            "id": "1",
+            "name": "Dota 2",
+            "full_name": "Dota 2",
+            "tag": "Dota2",
+            "key": "dota2",
+            "logo": ""
+        },
+        {
+            "id": "2",
+            "name": "CS:GO",
+            "full_name": "Counter-Strike:Global Object",
+            "tag": "CS:GO",
+            "key": "csgo",
+            "logo": ""
+        },
+        {
+            "id": "3",
+            "full_name": "League Of Legends",
+            "name": "League Of Legends",
+            "tag": "LOL",
+            "key": "lol",
+            "logo": ""
+        },
+        {
+            "id": "5",
+            "full_name": "star craft",
+            "name": "sc2",
+            "tag": "sc2",
+            "key": "sc2",
+            "logo": ""
+        },
+        {
+            "id": "4",
+            "full_name": "Overwatch",
+            "name": "Overwatch",
+            "tag": "Overwatch",
+            "key": "overwatch",
+            "logo": ""
+        },
+        {
+            "id": "6",
+            "full_name": "Hearthstone",
+            "name": "Hearthstone",
+            "tag": "Hearthstone",
+            "key": "hearthstone",
+            "logo": ""
+        }
+  ],
+   "otherUInfo": {
+        "isLogin": false,
+        "basic": {
+          "id": "1234567",
+          "name": "Zero12345678",
+          "account": "lqzerogg",
+          "email": "lqzerogg@gmail.com",
+          "picture": "http://placeimg.com/100/100/nature",
+          "isEmailValidated": false,
+          "gold": 123.678,
+          "first_name":"xia",
+          "last_name":"houdun",
+          "country":"China",
+          "city":"handan",
+          "address":"haishengdasha",
+          "desc":"个人描述",
+          "fans_num": 11,
+          "favorite_num": 11,
+          "title_list":[
+                "达人",
+                "高手"
+            ],
+          "sns": {
+              "qq": 1,
+              "wechat": 0
+          }
+        },
+        "relation_ship":0,
+        "game_stat":{
+            "bet_earnings":100,
+            "bet_gold":0,
+            "return_rate":0.1,
+            "win_count":0,
+            "bet_count":0,
+            "win_rate":0.2
+        },
+        "recent_stat": {
+            "consecutive_wins":100,
+            "win_rate":"6%",
+            "bet_earnings":-111.96,
+            "return_rate":"-32%",
+            "bet_count":33
+        }
+    },
+    "operationConfig": {
+        "activity": {
+            "lol_msi": {
+                "start_time": "2017-05-09T00:00:00+08:00",
+                "end_time": "2017-06-30T00:00:00+08:00"
+            }
+        }
+    },
+    "serverTime": 1496657819
+}
+
+
+
+
+
+
+
